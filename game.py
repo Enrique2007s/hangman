@@ -1,0 +1,1 @@
+from word_service import get_random_word

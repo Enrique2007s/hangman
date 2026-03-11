@@ -1,4 +1,6 @@
-This part shows the dependencies required for the project.
-Each line specifies a package and its version,
-which can be installed using pip.
+#This part shows the dependencies required for the project.
+#Each line specifies a package and its version,
+#which can be installed using pip.
 
+requests
+random
