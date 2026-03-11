@@ -1,4 +1,4 @@
-from word_service import get_random_word
+from word_service import get_word
 
 MAX_ATTEMPTS = 6
 
@@ -44,3 +44,11 @@ def play_game():
 
         else:
             print("Good guess!")
+
+        #Check if the player has guessed all letters/Win Condition
+
+        if all(letter in guessed_letters for letter in word):
+            print(f"Congratulations! You've guessed the word: {word}")
+            break
+
+    print("Game Over! The word was:", word)
